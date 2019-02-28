@@ -20,11 +20,48 @@
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
     <title>Música para todos - Spotify</title>
-    <link rel="icon" href="imagens/favicon.png">
+    <link rel="icon" href="imagens/favicon.png"><!-- para inserção de um favicon -->
   </head>
   <body>
-    
-    <h1>Olá, mundo!</h1>
+
+    <header><!-- Início de cabeçalho -->
+      <nav class="navbar navbar-expand-md navbar-light bg-warning fixed-top">
+        <div class="container">
+
+          <!-- Logo Spotify no Menu -->
+            <a class="navbar-brand" href="#">
+              <img src="imagens/spotify.svg" width="142">
+            </a>
+
+            <!-- Início botão mobile com "fontawesome" -->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+              <i class="fas fa-bars text-white"></i>
+            </button>
+            <!-- /Fim botão mobile com "fontawesome" -->
+          
+          <div class="collapse navbar-collapse" id="nav-principal"> 
+            <ul class="navbar-nav ml-auto"> 
+              <li class="nav-item">
+                <a class="nav-link" href="#">Premiun</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ajuda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Baixar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Inscrever-se</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Entrar</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+    </header><!-- /Fim de cabeçalho -->
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
