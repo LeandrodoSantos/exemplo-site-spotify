@@ -1,5 +1,6 @@
-/*
-* 
-* @author Jamilton Damasceno
-*/
-
+body {
+	background: url(../imagens/capa.png),/* Ambas as imagens capa e ruido têm opacidade */
+				url(../imagens/ruido.png),
+				linear-gradient(50deg,#ff4169,#7c26f8);/* "50dg" são 50 graus */
+				background-attachment: fixed; /*fixa o background*/
+}
