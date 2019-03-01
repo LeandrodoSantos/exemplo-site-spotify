@@ -75,6 +75,22 @@ nav.navbar-transparente {
 	color: black;
 }
 
+/* Estrutura conteúdos
+-----------------------------------*/
+#servicos {
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#servicos h2, h3 {
+	color: #7c25f8;
+}
+
+.albuns {
+	padding: 10px 0px;
+}
+
 /* Tipografia
 -----------------------------------*/
 h1 {
@@ -82,6 +98,18 @@ h1 {
 	letter-spacing: -0.05em; /* Define o espaçamento horizontal entre as letras */
 	margin-bottom: 50px;
 	color: white;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0-04em;
+}
+
+h3 {
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0-04em;
 }
 
 /* Link de mediaqueries: https://getbootstrap.com.br/docs/4.1/layout/overview/ */
