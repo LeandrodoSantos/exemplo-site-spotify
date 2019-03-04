@@ -77,6 +77,11 @@ nav.navbar-transparente {
 	color: black;
 }
 
+.carousel-control-next, .carousel-control-prev {
+	width: 5%; /* aqui alterando o width fiz as
+	setas se afastarem mais paraos lados, posso aqui tambémalterara cor por exemplo*/
+}
+
 /* Estrutura conteúdos
 -----------------------------------*/
 .caixa {
@@ -145,7 +150,11 @@ footer ul {
 
 footer ul li {
 	float: right;
-	margin: 0 5px
+	margin: 5px 5px;
+} 
+
+footer ul li a img{
+	margin: 35px 5px;
 }
 
 /* Tipografia
@@ -173,6 +182,14 @@ h3 {
 
 /* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
 @media (max-width: 575.98px) {
+	.navbar-brand { /* Aqui EU melhorei o espaçamento lateral do logo do site */
+		margin: 0px 5px;
+	}
+
+	.navbar-toggler { /* Aqui EU melhorei o espaçamento lateral do "hamburger" do site */
+		margin: 0px 5px;
+	}
+
 	.btn-custom {
 		margin: 10px 15px;
 		font-size: 1em;
